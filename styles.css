@@ -1,0 +1,209 @@
+body,html {
+    margin: 0;
+}
+
+
+h1{
+    color:#3726A6;
+    font-family: 'Livvic', sans-serif;
+    font-weight: bold;
+    font-size: 7rem;
+    display: flex;
+    margin-left: 100px;
+    padding-top: 70px;
+
+}
+h2{
+    color:#3726A6;
+    font-family: 'Livvic', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 30px 30px 30px 30px;
+}
+
+h5{
+
+    color:black;
+    font-family: 'Livvic', sans-serif;
+    font-weight: lighter;
+    font-size: 1.5rem;
+    display: flex;
+    margin-left: 100px;
+}
+
+
+.nav-link{
+    color:#3726A6;
+    font-family: 'Livvic', sans-serif;
+    font-weight: bold;
+}
+
+.top-container{
+    display: block;
+    margin: 0;
+    background: url(Images/cover1.png) no-repeat center center;
+    height: 700px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+
+@media only screen and (max-width: 600px){
+    .main-greet {
+        font-size: 5rem;
+        line-height: 80px;
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .main-greet2 {
+        font-size: 1.5rem;
+        width: auto;
+        line-height: 50px;
+        padding: 20px;
+    }
+}
+
+
+
+/* Galery Middle container */
+
+.about-description{
+    background:url(Images/mitad.png)no-repeat center center;
+    height: 400px;
+    width: 1400;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    
+}
+
+.short-description{
+    color:black;
+    font-family: 'Livvic', sans-serif;
+    font-weight: lighter;
+    font-size: 1.5rem;
+    text-align:center ;
+    width: 1100px;
+    padding-left: 200px;
+
+}
+
+@media only screen and (max-width: 600px){
+    .about-title {
+        font-size: 2rem;
+        line-height: 50px;
+        padding-left: 100px;
+    }
+}
+
+
+@media only screen and (max-width: 600px){
+    .short-description {
+        font-size: 1rem;
+        line-height: 35px;
+        padding-left: 200px;
+        width: 350px;
+        
+    }
+}
+
+.grid{
+    display: grid;
+    grid-gap: 35px;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+
+.gray{
+    background-color: khaki;
+    height: 300px;
+    width: 300px;
+    margin-top: 80px;
+    margin-left: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+/* Contact Me */
+
+.bottom-container{
+    background: url(Images/contactme.png)no-repeat center center;
+    background-size: cover;
+    font-family: 'Livvic', sans-serif;
+
+}
+.contact{
+    height:600px;
+    padding-top: 50px;
+    padding-bottom:40px;
+    text-align: center;
+  
+}
+
+.namesize, .emailsize, .messagesize {
+    box-sizing: border-box;
+    border: none;
+    background-color:#fbfd8a;
+}
+
+.messagesize{
+    width: 250px;
+    height: 100px;
+    border-style: none;
+}
+
+
+.myButton {
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #3726A6 100%);
+	background-color:khaki;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Livvic', sans-serif;
+	font-size:20px;
+	padding:13px 32px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #3d768a;
+    margin-top: 50px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:khaki;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+/*FOOTER */
+
+.footer-container{
+    text-align: center;
+}
+
+.fab{
+    color:#3726A6  
+}
+
+.copyright{
+    font-size: 9pt;
+    font-family: 'Livvic', sans-serif;
+    }
+
+.footer-link{
+    padding-right: 20px;
+}
